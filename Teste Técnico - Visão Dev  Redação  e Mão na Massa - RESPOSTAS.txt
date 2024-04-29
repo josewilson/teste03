@@ -50,10 +50,32 @@ Por outro lado, as tecnologias também oferecem oportunidades sem precedentes pa
 Portanto, é crucial que as novas gerações sejam educadas e orientadas para fazer uso consciente e responsável das tecnologias, aproveitando os benefícios e mitigando os riscos associados ao seu uso excessivo. Investimentos em educação digital, alfabetização tecnológica e habilidades socioemocionais são essenciais para preparar os jovens para os desafios e oportunidades do mundo moderno. Somente assim poderemos garantir que as transformações tecnológicas tenham um impacto positivo e sustentável nas futuras gerações.
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------
+
+Diagrama de Classes
+
+Pessoa
+- id: int
+- nomeCompleto: string
+- dataNascimento: Date
+- enderecos: List<Endereco>
+
+Endereco
+- id: int
+- logradouro: string
+- cep: string
+- numero: string
+- cidade: string
+- estado: string
+- principal: boolean
+
+
+----------------------------------------------------------------------
 
 
 Link GitHub
+
+https://github.com/josewilson/teste03
 
 
 
